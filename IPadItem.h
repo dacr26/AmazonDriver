@@ -18,6 +18,15 @@ class IPadItem: public BaseItem {
 public:
   IPadItem();
   virtual ~IPadItem();
+  IPadItem(int ID, string Name, double Price)
+   {}
+
+   void setName(const string);
+   const string getName() const;
+   void setPrice(const double);
+   const double getPrice() const;
+   const string info() const;
+   void show() const;
 };
 
 } /* namespace csye6205 */

@@ -15,7 +15,12 @@ BaseItem::BaseItem() {
   // TODO Auto-generated constructor stub
 
 }
+BaseItem::BaseItem(int id, string name, double price){
+	ID=id;
+	Name=name;
+	Price=price;
 
+}
 BaseItem::~BaseItem() {
   // TODO Auto-generated destructor stub
 }

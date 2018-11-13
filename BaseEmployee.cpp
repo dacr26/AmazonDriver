@@ -17,7 +17,7 @@ namespace edu {
 
       }
 
-      BaseEmployee::BaseEmployee(int ID, string FirstName , string LastName , int  Age , double Wage) : BasePerson(FirstName, LastName, Age), ID(id), wage(Wage) {
+      BaseEmployee::BaseEmployee(int id, string FirstName , string LastName , int  Age , double wage) : BasePerson(FirstName, LastName, Age), ID(id), Wage(wage) {
       }
 
       BaseEmployee::~BaseEmployee() {

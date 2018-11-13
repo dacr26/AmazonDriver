@@ -15,15 +15,17 @@ namespace edu {
 namespace neu {
 namespace csye6205 {
 
-class BasePerson: AbstractPersonAPI {
-private:
-  string FirstName = "";
-  string LastName = "";
-  int  Age = 1;
+class BasePerson: public AbstractPersonAPI {
+protected:
+  string FirstName ;
+  string LastName ;
+  int  Age ;
 public:
   BasePerson();
   BasePerson(string a , string b , int c);
   virtual ~BasePerson();
+  const string info() const;		// pure virtual method: not implemented, must be derived
+  void show() const;
 };
 } /* namespace csye6205 */
 } /* namespace neu */
