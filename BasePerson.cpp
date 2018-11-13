@@ -4,14 +4,15 @@
  *  Created on: Nov 6, 2018
  *      Author: ruoranwang
  */
-#include <iostream>
 #include "BasePerson.h"
-#include <string>
+
 using namespace std;
 
-namespace edu {
-namespace neu {
-namespace csye6205 {
+// namespace edu {
+//   namespace neu {
+//     namespace csye6205 {
+// using namespace edu::neu::csye6205;
+
 BasePerson::BasePerson() {
   // TODO Auto-generated constructor stub
 
@@ -28,6 +29,6 @@ BasePerson::~BasePerson() {
 
 }
 
-}
-}
-}
+//     }
+//   }
+// }

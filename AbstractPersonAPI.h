@@ -10,22 +10,20 @@
 
 #include <string>
 
-using namespace std;
-
-namespace edu {
-namespace neu {
-namespace csye6205 {
+// namespace edu {
+// namespace neu {
+//   namespace csye6205 {
 
 class AbstractPersonAPI {
 public:
   AbstractPersonAPI();
   virtual ~AbstractPersonAPI();
-  virtual const string info() const = 0;		// pure virtual method: not implemented, must be derived
+  virtual const std::string info() const = 0;		// pure virtual method: not implemented, must be derived
   virtual void show() const = 0;		// pure virtual method: not implemented, must be derived
 };
 
-} /* namespace csye6205 */
-} /* namespace neu */
-} /* namespace edu */
+//     } /* namespace csye6205 */
+//   } /* namespace neu */
+// } /* namespace edu */
 
 #endif /* ABSTRACTPERSONAPI_H_ */

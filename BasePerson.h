@@ -9,26 +9,25 @@
 #define BASEPERSON_H_
 #include <string>
 #include "AbstractPersonAPI.h"
-using namespace std;
 
-namespace edu {
-namespace neu {
-namespace csye6205 {
+// namespace edu {
+//   namespace neu {
+//     namespace csye6205 {
 
 class BasePerson: public AbstractPersonAPI {
 protected:
-  string FirstName ;
-  string LastName ;
+  std::string FirstName ;
+  std::string LastName ;
   int  Age ;
 public:
   BasePerson();
-  BasePerson(string a , string b , int c);
+  BasePerson(std::string a , std::string b , int c);
   virtual ~BasePerson();
-  const string info() const;		// pure virtual method: not implemented, must be derived
+  const std::string info() const;		// pure virtual method: not implemented, must be derived
   void show() const;
 };
-} /* namespace csye6205 */
-} /* namespace neu */
-} /* namespace edu */
+//     } /* namespace csye6205 */
+//   } /* namespace neu */
+// } /* namespace edu */
 
 #endif /* BASEPERSON_H_ */

@@ -7,9 +7,9 @@
 
 #include "AbstractItemAPI.h"
 
-namespace edu {
-namespace neu {
-namespace csye6205 {
+// namespace edu {
+// namespace neu {
+// namespace csye6205 {
 
 AbstractItemAPI::AbstractItemAPI() {
   // TODO Auto-generated constructor stub
@@ -20,6 +20,6 @@ AbstractItemAPI::~AbstractItemAPI() {
   // TODO Auto-generated destructor stub
 }
 
-} /* namespace csye6205 */
-} /* namespace neu */
-} /* namespace edu */
+// } /* namespace csye6205 */
+// } /* namespace neu */
+// } /* namespace edu */
